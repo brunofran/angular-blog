@@ -1,0 +1,23 @@
+.menu-bar, .menu-bar-list{
+    display: flex;
+    background-color: #181B25;
+}
+
+.menu-bar{
+    justify-content: space-between;
+    padding: 15px 25px;
+    
+}
+
+.menu-bar-title{
+    font-weight: bold;
+}
+
+.menu-bar-list > li{
+    margin-right: 10px;
+    list-style: none;
+}
+
+.menu-bar-list > li > a, .menu-bar > a {
+    text-decoration: none;
+}

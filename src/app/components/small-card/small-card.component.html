@@ -1,0 +1,21 @@
+<a [routerLink]="['content', Id]">
+    <div class="small-card">
+
+        <div>
+            
+            <img src="{{smallCardImg}}" alt="{{smallCardImgAlt}}" class="small-card-img">
+        </div>
+        <div class="small-card-content">
+            <app-category
+                categoryName="{{smallCardCategory}}">
+            </app-category>
+            <div class="small-card-description">
+                {{smallCardDescription}}
+            </div>
+            <div class="small-card-date">
+                {{smallCardDate}}
+            </div>
+        </div>
+    
+    </div>
+</a>

@@ -1,0 +1,22 @@
+<hr/>
+<div class="big-card">
+    <div class="big-card-text">
+        <div class="big-card-title">
+            <h1><a [routerLink]="['content', Id]">{{bigCardTitle}}</a></h1>
+        </div>
+        <app-category categoryName="steam"></app-category>
+        <div class="big-card-description">
+            {{bigCardDescription}}
+        </div>
+        <div>
+            <a [routerLink]="['content', Id]">Read more</a>
+        </div>
+
+    </div>
+    <div>
+        <a [routerLink]="['content', Id]">
+            <img src="{{bigCardImg}}" alt="Octopath Traveler (2019) picture" class="big-card-img">
+        </a>
+    </div>
+</div>
+<hr/>

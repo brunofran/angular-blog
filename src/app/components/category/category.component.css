@@ -1,0 +1,24 @@
+.category-name{
+    text-transform: capitalize;
+}
+
+.category-steam{
+    width: 60px;
+    text-align: center;
+    padding: 2px 5px;
+    margin: 5px;
+    font-size: 0.8rem;
+    background: rgb(22,29,60);
+    background: linear-gradient(180deg, rgba(22,29,60,1) 0%, rgba(4,106,158,1) 100%);
+    list-style: none;
+}
+
+.category-xbox{
+    width: 60px;
+    text-align: center;
+    padding: 2px 5px;
+    margin: 5px;
+    font-size: 0.8rem;
+    background: #107C10;
+    list-style: none;
+}
